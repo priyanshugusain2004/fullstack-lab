@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Nested Lists</title>
+</head>
+<body>
+
+<h1>Question 1: Computer Science Department</h1>
+
+<ul>
+    <li>MCA
+        <ul>
+            <li>Semester 1
+                <ul>
+                    <li>Programming in C — Introduction to C programming and problem solving.</li>
+                    <li>DBMS — Concepts of databases and SQL.</li>
+                    <li>Computer Networks — Basics of computer communication and networking.</li>
+                </ul>
+            </li>
+            <li>Semester 2
+                <ul>
+                    <li>Machine Learning — Introduction to machine learning techniques.</li>
+                    <li>Cloud Computing — Concepts and services of cloud computing.</li>
+                    <li>Web Technologies — Development of web-based applications.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+    <li>BCA
+        <ul>
+            <li>Semester 1
+                <ul>
+                    <li>C Programming — Basic programming concepts using C.</li>
+                    <li>Mathematics — Mathematical concepts used in computer science.</li>
+                    <li>Computer Fundamentals — Basic concepts of computers.</li>
+                    <li>Web Development</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+
+<h1>Question 2: Online Shopping Website</h1>
+
+<ol>
+    <li>Electronics
+        <ul>
+            <li>Mobiles
+                <ul>
+                    <li>Samsung – Android smartphone</li>
+                    <li>Apple – iPhone</li>
+                    <li>OnePlus – Android smartphone</li>
+                </ul>
+            </li>
+            <li>Laptops
+                <ul>
+                    <li>Dell – Laptop computer</li>
+                    <li>HP – Laptop computer</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+    <li>Clothing
+        <ul>
+            <li>Men
+                <ul>
+                    <li>Shirts – Formal and casual shirts</li>
+                    <li>Jeans – Denim wear</li>
+                </ul>
+            </li>
+            <li>Women
+                <ul>
+                    <li>Dresses – Casual and party wear</li>
+                    <li>Sarees – Traditional Indian wear</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ol>
+
+
+<h1>Question 3: Hospital Departments</h1>
+
+<ol>
+    <li>Medical Departments
+        <ul>
+            <li>Cardiology
+                <ul>
+                    <li>Heart Check-up – Examination of heart-related conditions</li>
+                    <li>ECG – Test for heart activity</li>
+                </ul>
+            </li>
+            <li>Neurology
+                <ul>
+                    <li>Consultation – Neurological examination</li>
+                    <li>MRI – Imaging of the brain and nervous system</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+    <li>Diagnostic Services
+        <ul>
+            <li>Blood Tests</li>
+            <li>X-Ray</li>
+            <li>Ultrasound</li>
+        </ul>
+    </li>
+</ol>
+
+
+<h1>Question 4: Travel Agency</h1>
+
+<ol>
+    <li>Uttarakhand
+        <ul>
+            <li>Mussoorie
+                <ul>
+                    <li>Package – 3 Days / 2 Nights</li>
+                    <li>Includes – Hotel and sightseeing</li>
+                </ul>
+            </li>
+            <li>Nainital
+                <ul>
+                    <li>Package – 4 Days / 3 Nights</li>
+                    <li>Includes – Hotel and local travel</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+    <li>Rajasthan
+        <ul>
+            <li>Jaipur
+                <ul>
+                    <li>Package – 3 Days / 2 Nights</li>
+                    <li>Includes – Hotel and sightseeing</li>
+                </ul>
+            </li>
+            <li>Udaipur
+                <ul>
+                    <li>Package – 4 Days / 3 Nights</li>
+                    <li>Includes – Hotel and sightseeing</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ol>
+
+</body>
+</html>
