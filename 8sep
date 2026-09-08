@@ -1,38 +1,74 @@
-Here is the complete code from the above image, including the part shown in the previous image:
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Student Details</title>
+    <title>TIME TABLE</title>
 </head>
 
 <body>
 
-<h2>Student Details</h2>
+<h2 style="text-align: center;">TIME TABLE</h2>
 
-<table border="1" width="50%">
+<table border="1" cellspacing="0" cellpadding="10" width="80%" align="center">
 
-    <tr style="background-color: lightblue;">
-        <th>Name</th>
-        <th>Age</th>
-        <th>Course</th>
+    <tr>
+        <th>Day/Period</th>
+        <th>I<br>9:30-10:20</th>
+        <th>II<br>10:20-11:10</th>
+        <th>III<br>12:00-12:40</th>
+        <th>12:00-12:40</th>
+        <th>IV<br>12:40-1:30</th>
+        <th>V<br>1:30-2:20</th>
+        <th>VI<br>2:20-3:10</th>
+        <th>VII<br>3:10-4:00</th>
     </tr>
 
-    <tr style="background-color: lightyellow;">
-        <td>Rahul</td>
-        <td>20</td>
-        <td>MCA</td>
+    <tr>
+        <td>Monday</td>
+        <td>Eng</td>
+        <td>Mat</td>
+        <td>Che</td>
+        <td rowspan="5">LUNCH</td>
+        <td colspan="3">LAB</td>
+        <td>Phy</td>
     </tr>
 
-    <tr style="background-color: lightgreen;">
-        <td>Priya</td>
-        <td>21</td>
-        <td>BCA</td>
+    <tr>
+        <td>Tuesday</td>
+        <td colspan="3">LAB</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td>Mat</td>
+        <td>SPORTS</td>
+    </tr>
+
+    <tr>
+        <td>Wednesday</td>
+        <td>Mat</td>
+        <td>Phy</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td colspan="3">LIBRARY</td>
+    </tr>
+
+    <tr>
+        <td>Thursday</td>
+        <td>Phy</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td colspan="3">LAB</td>
+        <td>Mat</td>
+    </tr>
+
+    <tr>
+        <td>Friday</td>
+        <td>Phy</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td colspan="3">LAB</td>
+        <td>Mat</td>
     </tr>
 
 </table>
 
 </body>
 </html>
-
-This is the rest + complete code corresponding to the two images of the same program.
